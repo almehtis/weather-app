@@ -1,0 +1,135 @@
+@font-face {
+    font-family: "IBMPlexSans-Medium";
+    src: url(font/IBMPlexSans-Medium.woff);
+    font-style: medium;
+    font-weight: regular;
+  }
+
+*{
+    font-family: "IBMPlexSans-Medium";
+}
+
+body{
+    background-color: #f4f4f4;
+}
+
+/*.container{
+    width: 300px;    
+    background-color: #f4f4f4;
+    
+    display: block;
+    margin: 0 auto;
+    
+    border-radius: 10px;
+    padding-bottom : 50px;
+}
+
+.app-title{
+    width: 300px;
+    height: 50px;
+    border-radius: 10px 10px 0 0;
+}
+
+.app-title p{
+    text-align: center;
+    padding: 15px;
+    margin: 0 auto;
+    font-size: 1.2em;
+    color: #161616;
+}*/
+
+.notification{
+    background-color: #f4f4f4;
+    display: none;
+}
+
+.notification p{
+    color: #da1e28;
+    font-size: 1.2em;
+    margin: 0;
+    text-align: center;
+    padding: 10px 0;
+}
+
+/*.weather-container{
+    width: 300px;
+    height: 260px;
+    background-color: #F4F9FF;
+}*/
+
+.weather-icon{
+    position: absolute;
+    top: 40%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    width: 300px;
+    height: 128px;
+}
+
+.weather-icon img{
+    display: block;
+    margin: 0 auto;
+    width: 8em;
+}
+
+.temperature-value{
+    width: 300px;
+    height: 60px;
+}
+
+.temperature-value p{
+    padding: 0;
+    margin: 0;
+    color: #161616;
+    font-size: 3em;
+    text-align: center;
+    cursor: pointer;
+    position: absolute;
+    top: 60%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+.temperature-value p:hover{
+    
+}
+
+.temperature-value span{
+    color: #161616;
+    font-size: 0.7em;
+}
+
+.temperature-description{
+    
+}
+
+.temperature-description p{
+    padding: 8px;
+    margin: 0;
+    color: #161616;
+    text-align: center;
+    font-size: 1.3em;
+    position: absolute;
+    top: 90%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+.location{
+    
+}
+
+.location p{
+    margin: 0;
+    padding: 0;
+    color: #161616;
+    text-align: center;
+    font-size: 1.3em;
+    position: absolute;
+    top: 10%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+
+
